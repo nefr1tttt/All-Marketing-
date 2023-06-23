@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 500px;
+    background: #F1F1F1;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.header__content {
+    width: 1030px;
+    height: 500px;
+    background: rgb(255, 255, 255) url(../img/Фон.png) no-repeat center center / cover;
+    border-radius: 15px;
+    margin: auto;
+}
+.header__content-sect{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: start;
+    justify-content: center;
+}
+
+.header__content-sect__ttl {
+    width: 332px;
+    height: 119px;
+    font-size: 50px;
+    line-height: 59.25px;
+    font-weight: 700;
+    font-family: "Rubik";
+}
+
+.header__content-sect__p {
+    width: 314px;
+    height: 76px;
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 18.96px;
+    font-weight: 200px;
+}
+
+.header__content-btn {
+    width: 211px;
+    height: 33px;
+    border-radius: 30px;
+    background: #3FA5D5;
+    color: #fff;
+    border: #3FA5D5;
+    font-size: 16px;
+    font-family: "Rubik";
+    font-weight: 100px;
+    transition: .5s;
+}
+.header__content-btn:hover{
+    color: #2A86B1
+}
+
+.header__content {
+    display: flex;
+    padding-left: 62px;
+}
+
+.main__sect {
+    background: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+    padding-bottom: 48px;
+}
+
+.main__sect-card {
+    width: 255px;
+    height: 338px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 59px;
+    column-gap: 24px;
+}
+.main__sect-card2 {
+    width: 255px;
+    height: 338px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 24px;
+}
+.main__sect-card3 {
+    width: 255px;
+    height: 338px;
+    border-radius: 15px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 67px;
+    column-gap: 24px;
+}
+.main__sect-card__ttl{
+    font-size: 20px;
+    font-family:"Rubik";
+    font-weight: 700;
+    color: #2A86B1;
+    text-align: center;
+}
+
+
+.main__sect-basic {
+    background: #F1F1F1;
+    align-items: center;
+    justify-content: center;
+}
+.main__sect-basic__cards {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.main__sect-basic__p {
+    width: 795px;
+    height: 94px;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    color: #545454;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.main__sect-basic__p {
+    width: 795px;
+    height: 114px;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    color: #545454;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.main__sect-basic__cards1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.main__sect-basic__ttl {
+    font-family: "Rubik";
+    font-size: 20px;
+    font-weight: 700;
+    color: #686868;
+}
+.main__sect-basic__ttl2{
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 17px;
+    color: #323232;
+}
+.main__sect-basic__pr{
+    width: 155px;
+    height: 41px;
+    font-family: "Rubik";
+    font-weight: 300;
+    font-size: 14px;
+    color: #000;
+    line-height: 13.22px;
+}
+.main__sect-basic__cards2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__sect-basic__divison{
+    width: 255px;
+    height: 91px;
+    border-radius: 8px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+.main__sect-basic__edc{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.main__sect-basic__cards2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 14.4px;
+    column-gap: 30px;
+}
+.main__sect-basic{
+    padding-bottom: 44px;
+}
+.footer{
+    width: 100%;
+    height: 140px;
+    background: #3FA5D5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 500px;
+}
+.footer__ttl{
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+}
+.footer__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__card-nmbr{
+    color: #fff;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer__card-contact{
+    color: #fff;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;   
+}
